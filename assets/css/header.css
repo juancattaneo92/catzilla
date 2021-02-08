@@ -147,12 +147,6 @@ body{
   color: rgb(240, 159, 19);
 }
 
-@media only screen and (max-width: 375px) {
-  .rotating-words{
-    padding-right: 4px;
-  }
-}
-
 
 
 @keyframes word-spin{
@@ -348,4 +342,17 @@ body{
   to {opacity:1 ;}
 }
 
+}
+
+@media only screen and (max-width: 375px) {
+  .rotating-words{
+    padding-right: 4px;
+  }
+
+
+#stickyHeader{
+    position: fixed;
+    top: 0px;
+    width: 73%;
+}
 }
