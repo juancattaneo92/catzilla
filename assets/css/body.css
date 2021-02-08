@@ -56,8 +56,8 @@
     display:flex;
     /* height:100%;
     width:50%; */
-    height:700px;
-    width:700px;
+    height:600px;
+    width:600px;
     background-image: url("/images2/catzilla8.png");
     /* transform: scale(0.5); */
     background-size: cover;
@@ -147,6 +147,35 @@
     .title2{
         text-align: center;
     }    
+
+
+.title{
+    color: black;
+    font-size: 70px;
+    font-family: 'Anton', sans-serif;
+    margin: 75px 0px 50px 0px;
+    text-shadow: 8px 8px 0px rgb(240, 159, 19);
+}
+
+.title2{
+    color:rgb(240, 159, 19);
+    text-shadow: 8px 8px 0px black;
+}
+
+.title5{
+    color: #a7120e;
+    margin: 75px 0px 50px 0px;
+    font-size: 70px;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 8px 8px 0px rgb(0 0 0);
+
+}
+
+.title3{
+    color: white;
+    text-shadow: 9px 9px 0px rgb(240, 159, 19);
+    
+}
 }
 
 
