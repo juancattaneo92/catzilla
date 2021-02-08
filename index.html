@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/resetcss.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/body.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- font-family: 'Nunito', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
+    <!-- font-family: 'Noto Sans JP', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+
+    <!-- font-family: 'Barlow', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+
+    <!-- font-family: 'Dosis', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Dosis&display=swap" rel="stylesheet">
+
+    <!-- font-family: 'Fjalla One', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
+    <!-- font-family: 'Permanent Marker', cursive; -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <!-- font-family: 'Luckiest Guy', cursive;        -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+    <!-- font-family: 'Anton', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">  
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon_io/site.webmanifest">
+    <title>CATZILLA</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div id="stickyHeader" class="header-links-wrapper">
+        <div class="links">
+            <a href="#home" class="header-links">HOME</a>
+            <a href="#about" class="header-links">ABOUT</a>
+            <a href="#mechanics" class="header-links">MECHANICS</a>
+            <a href="#global-functions" class="header-links">GLOBAL</a>
+            <a href="#tokenomics" class="header-links">TOKENOMICS</a>
+        </div>
+        <!-- <div class="logo">Logo</div> -->
+    </div>
+    <!-- HERO-BANNER -->
+    <div id="home" class="hero-wrapper">
+        <div class="hero-banner">
+            <img src="/images2/image-asset.png" alt="" class="hero-image">
+        </div>
+        <div class="hero-text">
+            <div class="roledex-container">
+                <div class="roledex">
+                    <h1 class="static-word">KING OF</h1>
+                    <div class="rotating-words-wrapper">
+                        <div class="rotating-words">
+                            <h1 class="changing-word">GAINS</h1>
+                            <h1 class="changing-word">MEMES</h1>
+                            <h1 class="changing-word">CATS</h1>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="hero-button-wrapper">
+            <a href="" target="_blank">
+                <div class="hero-button">
+                    CONTRACT
+                </div>
+            </a>
+            <a href="https://uniswap.org/" target="_blank">
+                <div class="hero-button">
+                    UNISWAP
+                </div>
+            </a>
+            <a href="https://telegram.org/" target="_blank">
+                <div class="hero-button">
+                    TELEGRAM
+                </div>
+            </a>
+            <a href="https://unicrypt.network/presales"_blank="">
+                <div class="hero-button">
+                    PRESALES
+                </div>
+            </a>
+        </div>
+        <div>
+
+        </div>
+    </div>
+    <!-- ABOUT -->
+    <div id="about" class="about-wrapper">
+        <h1 class='title title2'>ABOUT</h1>
+        <div class="about-section">
+            <div class="about-text">
+                <p>The true KING is coming. Catzilla will obliterate all that stands in its path. Bye bye paper hands. Very destruction.
+                No 50% coins to vitalik, no coins to Andre Cronje, no coins to elon musk. Coins only to you and
+                catzilla.</p>
+            </div>
+            <div id="about-image" class="about-image">
+                
+            </div>
+        </div>
+    </div>
+    <!-- MECHANICS -->
+    <div class="mechanics-wrapper" id="mechanics">
+        <h1 class='title5'>MECHANICS</h1>
+    
+        <div class="button-toggle">
+            <button onclick="renderBuyerInfo()" class="button-switches" id="buyers">BUYERS</button>
+            <button onclick="renderCommunityInfo()" class="button-switches" id="community">COMMUNITY</button>
+        </div>
+        <div id="section-swap" class="mechanics-section">
+            <div id="image-swap" class="mechanics-image">
+            </div>
+            <div class="mechanics-text">
+                <p id="alternator">
+                Each buy has a buy fee that will go into a prize pool, buy fee is calculated by buy weight. More buy = less fee. Much money.
+                Every 10th buy that buyer gets the WHOLE prize pool (adjustable).
+                Every buy gets a buy bonus that is powered by sell fees (5% sell fee), buy AFTER a sell and get more money.</p>           
+            </div>
+        </div>
+       <div class="mechanics-bottom">
+           <a href="https://docs.google.com/forms/d/1tPeKvO25rRLUOKpCm8nnvtAZko2MK9j8K9fuFIs7Q7U/viewform?edit_requested=true" taget="_blank">
+                <button class="disclaimer-button mechanics-bottom" >MUCH SUPPORT</button>
+            </a>
+            <div class='mechanics-foot'>*Each txn has a 1% tx fee that is split across all holders and 1% cat fee for catzilla</div>
+        </div>
+    </div>
+    <!-- GLOBAL FUNCTIONS -->
+    <div id="global-functions" class="global-functions-wrapper">
+        <h1 class="title title2">GLOBAL FUNCTIONS</h1>
+        <div class="global-functions-section">
+            <!-- <div class="global-functions-image" > -->
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="/images2/catzilla9.png" style="width:100%">
+                        <div class="text">Every 10 minutes anyone can call only 1 of two functions<br/>
+                        verysmashed = burn on the token supply (2%)><br/>
+                        Catebreathe = positive rebase (2%)<br/></div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="/images2/catzilla9.png" style="width:100%">
+                        <div class="text">
+                        Every 1 hour you can call a Catzilla function where you can bet up to 5% of the buybonus pool<br/>
+                        If you lose you put the amount into the pool<br/>
+                        If you win you get 5% of the pool<br/></div>
+                    
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="/images2/catzilla9.png" style="width:100%">
+                        <div class="text">
+                        wow function that disperses amount you put to holders<br/>
+                        (in case contracts want to use it, will be used in case presale doesn’t sell all)<br/></div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br/>
+            <div style="text-align:center" class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+
+                
+        </div>
+
+    </div>
+    <!-- TOKENOMICS -->
+    <div id="tokenomics" class="tokenomics-wrapper">
+        <h1 class="title">TOKENOMICS</h1>
+        <div class="tokenomics-section">
+            <div class="feature">
+                Total Supply<br>              
+                100 mil
+            </div>
+            <div class="feature">
+                Presale Allocation<br> 
+                42%<br> 
+            </div>
+            <div class="feature">
+                Public Sale<br> 
+                8% <br>
+            </div>
+            <div class="feature">
+                Buy Bonus Pool<br> 
+                5%
+            </div>
+            <div class="feature">
+                Farm<br>
+                5% from Catzilla <br>
+            </div>
+            <div class="feature">
+                Audits <br>
+                Completed by WoR
+            </div>
+            <div class="feature">
+                Catzilla<br>
+                10%
+            </div>
+            <div class="feature">
+                Team<br>
+                0%
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="disclaimer">
+        <div class="disclaimer-button" id="disclaimer">
+            LEGAL DISCLAIMER
+
+        </div>
+        <div class="disclaimer-button" id="disclosure">
+            RISK DISCLOSURE
+        </div>
+    </div>
+    <div id="render">
+        <p id="p-render">The information provided on this website does not constitute investment advice, financial advice, trading advice, or
+        any other sort of advice and you should not treat any of the website's content as such. The CATZILLA team does not
+        recommend that any cryptocurrency should be bought, sold, or held by you. Do conduct your own due diligence and consult
+        your financial advisor before making any investment decisions. By purchasing CATZILLA, you agree that you are not
+        purchasing a security or investment and you agree to hold the team harmless and not liable for any losses or taxes you
+        may incur. You also agree that the team is presenting the token "as is" and is not required to provide any support or
+        services. You should have no expectation of any form from CATZILLA and its team. Although CATZILLA is an EXPERIMENTAL
+        token for social experiment and not a digital currency, the team strongly recommends that United States persons do not
+        purchase it because the team cannot ensure compliance with United states regulations. Always make sure that you are in
+        compliance with your local laws and regulations before you make any purchase.</p>
+    </div>
+    
+</footer>
+<script src="/assets/js/js-functions.js"></script>
+</html>
