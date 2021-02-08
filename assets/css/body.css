@@ -160,7 +160,6 @@
 
 .mechanics-image{
     margin: 30px;
-    background-image: url("/images2/apocalypse.jpg");
     background-size: contain;
     width:50%;
     background-repeat: no-repeat;
@@ -170,7 +169,6 @@
 @media only screen and  (max-width: 375px) { 
 	.mechanics-image {
     /* margin: 10px; */
-    /* background-image: url("/images/gold.jpg"); */
     background-size: contain;
     width: 50%;
     background-repeat: no-repeat;
