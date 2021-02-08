@@ -303,6 +303,17 @@ body{
     flex-wrap: wrap;
   }
 
+    .rotating-words{
+    padding-right: 4px;
+  }
+
+
+#stickyHeader{
+    position: fixed;
+    top: 0px;
+    width: 73%;
+}
+
 
 /* The actual popup */
 .hero-button .popuptext {
@@ -342,17 +353,4 @@ body{
   to {opacity:1 ;}
 }
 
-}
-
-@media only screen and (max-width: 375px) {
-  .rotating-words{
-    padding-right: 4px;
-  }
-
-
-#stickyHeader{
-    position: fixed;
-    top: 0px;
-    width: 73%;
-}
 }

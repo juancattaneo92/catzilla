@@ -67,7 +67,7 @@ function showSlides(n) {
 //Popup message
 
 function myPopup() {
-    var popup = document.getElementById("myPopup");
+    var popup = document.getElementById("myPopupId");
     popup.classList.toggle("show");
     
     if (popup.classList.contains("show")) setTimeout(() => popup.classList.remove("show"), 10000)
