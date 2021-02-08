@@ -226,17 +226,10 @@ body{
   align-content: center;
 }
 
-@media only screen and (max-width: 375px) {
-  .hero-button-wrapper{
-    flex-wrap: wrap;
-  }
-}
-
 .hero-button{
   margin: 12px;
   height: 55px;
   width: 120px;
-  /* background-color: rgb(24, 21, 21); */
   border: 3px solid #f09f14;
   display: flex;
   justify-content: center;
@@ -245,8 +238,64 @@ body{
   font-family: 'Anton', sans-serif;
   font-size: 14px;
   letter-spacing: 3px;
-  cursor: pointer;
   box-shadow:0 10px 20px rgba(0, 0, 0, 0.9), 0 6px 6px rgba(0, 0, 0, 0.9);
+  position: relative;
+  /* display: inline-block; */
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+/* The actual popup */
+.hero-button .popuptext {
+  justify-content: center;
+  visibility: hidden;
+  width: 48em;
+  background-color: white;
+  color:black;
+  /* text-shadow: 1px 1px 1px #555; */
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: -125%;
+  margin-left: 23em;
+  font-size: 18px;
+  font-family: 'Barlow', sans-serif;
+}
+
+/* Popup arrow */
+.hero-button .popuptext::after {
+  content: "";
+  position: absolute;
+  top: -3%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.hero-button .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
 }
 
 .hero-button:hover{
@@ -254,10 +303,49 @@ body{
   color: white;
 }
 
+
 @media only screen and (max-width: 375px) {
-  .hero-button{
-    font-size: 19px;
-    height: 60px;
-    width: 130px;
+  .hero-button-wrapper{
+    flex-wrap: wrap;
   }
+
+
+/* The actual popup */
+.hero-button .popuptext {
+  justify-content: center;
+  visibility: hidden;
+  width: 20em;
+  background-color: white;
+  color:black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: -370%;
+  margin-left: 8em;
+  font-size: 18px;
+  font-family: 'Barlow', sans-serif;
+
+}
+
+
+/* Toggle this class - hide and show the popup */
+.hero-button .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
 }
