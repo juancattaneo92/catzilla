@@ -308,11 +308,11 @@ body{
   }
 
 
-#stickyHeader{
+/* #stickyHeader{
     position: fixed;
     top: 0px;
     width: 100%;
-}
+} */
 
 
 /* The actual popup */
