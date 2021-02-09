@@ -311,7 +311,7 @@ body{
 #stickyHeader{
     position: fixed;
     top: 0px;
-    width: 73%;
+    width: 100%;
 }
 
 

@@ -70,7 +70,9 @@ function myPopup() {
     var popup = document.getElementById("myPopupId");
     popup.classList.toggle("show");
     
-    if (popup.classList.contains("show")) setTimeout(() => popup.classList.remove("show"), 10000)
+    if (popup.classList.contains("show")) {
+        setTimeout(() => popup.classList.remove("show"), 10000)
+    }
 }
 
 
